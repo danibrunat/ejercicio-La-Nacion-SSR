@@ -22,5 +22,5 @@ npm start
 
 Luego, acceder a la url provista por la consola. `http://localhost:3000`.
 
-Pueden ver también el proyecto funcionando deployado en Netlify:
-`https://ejercicio-la-nacion.netlify.app/`.
+Pueden ver también el proyecto funcionando deployado en Heroku:
+`https://ejercicio-la-nacion-front.herokuapp.com/`.
