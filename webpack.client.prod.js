@@ -3,6 +3,7 @@ const path = require('path');
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const baseConfig = require('./webpack.base');
 
 const config = {
@@ -47,6 +48,7 @@ const config = {
         NODE_ENV: JSON.stringify('production'),
       },
     }),
+    new HtmlWebpackPlugin(),
   ],
 };
 
