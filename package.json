@@ -46,7 +46,7 @@
     "webpack-dev-server": "3.11.2",
     "html-webpack-plugin": "^4.5.2",
     "copy-webpack-plugin": "^4.6.0",
-    "mini-css-extract-plugin": "^0.4.5",
+    "mini-css-extract-plugin": "^1.6.2",
     "webpack-merge": "4.2.2",
     "webpack-node-externals": "3.0.0"
   },
