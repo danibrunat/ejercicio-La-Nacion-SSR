@@ -68,6 +68,11 @@
                 display: none;
             }
         }
+      .article:nth-child(5n + 1) + .article + .article +.article{
+        .media {
+          display: block;
+        }
+      }
     }
 }
 
