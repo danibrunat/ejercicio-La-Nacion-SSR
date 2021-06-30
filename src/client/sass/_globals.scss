@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+  font-family: 'Sueca Slab';
+}
+
+@font-face {
+    font-family: 'Sueca Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/suecaslab-medium.eot') format('eot');
+    src: local('Sueca Slab'), local('Sueca Slab'),
+         url('/fonts/suecaslab-medium.woff2') format('woff2'),
+         url('/fonts/suecaslab-medium.woff') format('woff'),
+         url('/fonts/suecaslab-medium.ttf') format('truetype'),
+         url('/fonts/suecaslab-medium.svg') format('svg');
+  }
+
+@font-face {
+    font-family: 'Sueca Slab-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/suecaslab-bold.eot') format('eot');
+    src: local('Sueca Slab-Bold'), local('Sueca Slab-Bold'),
+        url('/fonts/suecaslab-bold.woff2') format('woff2'),
+        url('/fonts/suecaslab-bold.woff') format('woff'),
+        url('/fonts/suecaslab-bold.ttf') format('truetype'),
+        url('/fonts/suecaslab-bold.svg') format('svg');
+  }
+

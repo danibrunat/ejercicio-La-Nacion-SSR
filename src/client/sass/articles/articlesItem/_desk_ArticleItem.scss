@@ -1,0 +1,41 @@
+@import "../../colors.scss";
+@import "../../variables";
+@import "src/client/sass/globals";
+
+.article{
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+}
+
+    .blue-text {
+        color: $blue;
+        font-style: normal;
+    }
+
+    .title {
+        font-family:'Sueca Slab-Bold';
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .subhead {
+        font-size: 16px;
+        display: none;
+    }
+
+    .author {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+}
