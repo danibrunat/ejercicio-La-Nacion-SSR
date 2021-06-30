@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node build/bundle.js",
     "build:prod": "rm -rf build && rm -rf public && webpack  --config webpack.server.js && webpack -p --config webpack.client.prod.js --mode production",
-    "netlify-postbuild": "npm install && npm run build:prod",
+    "netlify-postbuild": "npm run build:prod",
     "webpack-prod": "webpack -p --progress --config webpack.client.prod.js --mode production",
     "dev": "npm run build-server && npm-run-all --parallel dev:*",
     "build-server": "webpack --config webpack.server.js",
